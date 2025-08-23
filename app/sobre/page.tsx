@@ -10,7 +10,7 @@ export default function SobrePage() {
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-foreground mb-4">Sobre a EduPlatform</h1>
+            <h1 className="text-4xl font-bold text-foreground mb-4">Sobre a Acelera Jovem</h1>
             <p className="text-xl text-muted-foreground">
               Transformando a educação através da tecnologia e conectando pessoas ao conhecimento
             </p>
