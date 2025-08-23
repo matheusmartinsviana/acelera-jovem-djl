@@ -10,10 +10,10 @@ export default function HomePage() {
       <section className="relative py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-50 dark:from-blue-950/20 dark:via-purple-950/20 dark:to-indigo-950/20"></div>
         <div className="relative container mx-auto text-center animate-fade-in">
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-medium mb-6">
-            <Star className="w-4 h-4 mr-2" />
+          {/* <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-yellow-400 text-sm font-medium mb-6">
+            <Star className="w-4 h-4 mr-2" color="currentColor" />
             Plataforma #1 em Educação Digital
-          </div>
+          </div> */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
             Acelera Jovem
             <span className="gradient-text block">Educação Digital</span>
@@ -70,9 +70,9 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="text-center group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm">
+            <Card className="text-center group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 bg-white/80 dark:bg-gray-900/5 backdrop-blur-sm">
               <CardHeader className="pb-8">
-                <div className="relative">
+                <div className="relative pb-5">
                   <div className="absolute inset-0 bg-blue-100 dark:bg-blue-900/30 rounded-full w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"></div>
                   <BookOpen className="relative h-12 w-12 text-blue-600 dark:text-blue-400 mx-auto mb-4 z-10" />
                 </div>
@@ -84,9 +84,9 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
-            <Card className="text-center group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm">
+            <Card className="text-center group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 bg-white/80 dark:bg-gray-900/5 backdrop-blur-sm">
               <CardHeader className="pb-8">
-                <div className="relative">
+                <div className="relative pb-5">
                   <div className="absolute inset-0 bg-purple-100 dark:bg-purple-900/30 rounded-full w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"></div>
                   <MessageSquare className="relative h-12 w-12 text-purple-600 dark:text-purple-400 mx-auto mb-4 z-10" />
                 </div>
@@ -98,9 +98,9 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
-            <Card className="text-center group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm">
+            <Card className="text-center group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 bg-white/80 dark:bg-gray-900/5 backdrop-blur-sm">
               <CardHeader className="pb-8">
-                <div className="relative">
+                <div className="relative pb-5">
                   <div className="absolute inset-0 bg-indigo-100 dark:bg-indigo-900/30 rounded-full w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"></div>
                   <Users className="relative h-12 w-12 text-indigo-600 dark:text-indigo-400 mx-auto mb-4 z-10" />
                 </div>
@@ -155,7 +155,7 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative pb-5">
               <div className="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl flex items-center justify-center">
                 <div className="text-center">
                   <BookOpen className="w-24 h-24 text-blue-600 dark:text-blue-400 mx-auto mb-4" />
