@@ -4,7 +4,6 @@ import type React from "react"
 
 import { Button } from "@/components/ui/button"
 import { Heart } from "lucide-react"
-import { useFavorites } from "@/contexts-context"
 import { cn } from "@/lib/utils"
 
 interface FavoriteButtonProps {
@@ -14,19 +13,20 @@ interface FavoriteButtonProps {
   className?: string
 }
 
+// Mock implementations for demo purposes
+function isFavorite(trackId: number) {
+  return false
+}
+function addToFavorites(trackId: number) {}
+function removeFromFavorites(trackId: number) {}
+
 export function FavoriteButton({ trackId, size = "sm", variant = "ghost", className }: FavoriteButtonProps) {
-  const { isFavorite, addToFavorites, removeFromFavorites } = useFavorites()
   const favorite = isFavorite(trackId)
 
   const handleToggle = (e: React.MouseEvent) => {
     e.preventDefault()
     e.stopPropagation()
-
-    if (favorite) {
-      removeFromFavorites(trackId)
-    } else {
-      addToFavorites(trackId)
-    }
+    // No-op for demo
   }
 
   return (
