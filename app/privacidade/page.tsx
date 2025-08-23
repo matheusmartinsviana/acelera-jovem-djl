@@ -94,7 +94,7 @@ export default function PrivacidadePage() {
               <CardContent>
                 <p>
                   Para questões sobre esta política de privacidade, entre em contato conosco em:
-                  <strong> privacidade@eduplatform.com.br</strong>
+                  <strong> privacidade@acelerajovem.com.br</strong>
                 </p>
               </CardContent>
             </Card>

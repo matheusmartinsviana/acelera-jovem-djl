@@ -402,7 +402,7 @@ export default function AdminPanel() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <label className="text-sm font-medium text-slate-700">Nome da Plataforma</label>
-                        <p className="text-slate-900 mt-1">EduPlatform</p>
+                        <p className="text-slate-900 mt-1">Acelera Jovem</p>
                       </div>
                       <div>
                         <label className="text-sm font-medium text-slate-700">Versão</label>

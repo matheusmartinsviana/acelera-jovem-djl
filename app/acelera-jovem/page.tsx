@@ -315,7 +315,7 @@ export default function AceleraJovemPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-blue-200" />
-                    <span>acelera@eduplatform.com</span>
+                    <span>acelera@acelerajovem.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-blue-200" />

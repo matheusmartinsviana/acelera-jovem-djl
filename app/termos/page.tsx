@@ -20,7 +20,7 @@ export default function TermosPage() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Ao acessar e usar a EduPlatform, você concorda em cumprir estes Termos de Uso. Se você não concordar
+                  Ao acessar e usar a Acelera Jovem, você concorda em cumprir estes Termos de Uso. Se você não concordar
                   com qualquer parte destes termos, não deve usar nossos serviços.
                 </p>
               </CardContent>
@@ -32,7 +32,7 @@ export default function TermosPage() {
               </CardHeader>
               <CardContent>
                 <p>
-                  A EduPlatform é uma plataforma educacional que conecta estudantes, professores e instituições,
+                  A Acelera Jovemé uma plataforma educacional que conecta estudantes, professores e instituições,
                   oferecendo conteúdos, fóruns de discussão e ferramentas de aprendizado.
                 </p>
               </CardContent>
@@ -75,7 +75,7 @@ export default function TermosPage() {
               <CardContent>
                 <p>
                   Todo o conteúdo da plataforma, incluindo textos, gráficos, logos e software, é propriedade da
-                  EduPlatform ou de seus licenciadores e está protegido por leis de direitos autorais.
+                  Acelera Jovemou de seus licenciadores e está protegido por leis de direitos autorais.
                 </p>
               </CardContent>
             </Card>
@@ -86,7 +86,7 @@ export default function TermosPage() {
               </CardHeader>
               <CardContent>
                 <p>
-                  A EduPlatform não será responsável por danos indiretos, incidentais ou consequenciais decorrentes do
+                  A Acelera Jovemnão será responsável por danos indiretos, incidentais ou consequenciais decorrentes do
                   uso da plataforma.
                 </p>
               </CardContent>
@@ -111,7 +111,7 @@ export default function TermosPage() {
               <CardContent>
                 <p>
                   Para questões sobre estes termos, entre em contato:
-                  <strong> legal@eduplatform.com.br</strong>
+                  <strong> legal@acelerajovem.com.br</strong>
                 </p>
               </CardContent>
             </Card>

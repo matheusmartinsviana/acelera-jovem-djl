@@ -55,7 +55,7 @@ const mockUsers = [
   {
     id: "4",
     name: "Admin Sistema",
-    email: "admin@eduplatform.com",
+    email: "admin@acelerajovem.com",
     password: "admin123",
     role: "admin" as const,
     avatar: "/placeholder.svg?height=40&width=40",

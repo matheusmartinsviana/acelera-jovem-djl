@@ -54,8 +54,8 @@ export default function ContatoPage() {
                   <CardTitle>Email</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">contato@eduplatform.com.br</p>
-                  <p className="text-muted-foreground">suporte@eduplatform.com.br</p>
+                  <p className="text-muted-foreground">contato@acelerajovem.com.br</p>
+                  <p className="text-muted-foreground">suporte@acelerajovem.com.br</p>
                 </CardContent>
               </Card>
 

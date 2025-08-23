@@ -41,7 +41,7 @@ const roles = [
     name: "Admin",
     icon: Shield,
     color: "bg-red-500",
-    user: { id: "4", name: "Admin", email: "admin@eduplatform.com", role: "admin" as const },
+    user: { id: "4", name: "Admin", email: "admin@acelerajovem.com", role: "admin" as const },
   },
 ]
 

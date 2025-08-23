@@ -159,7 +159,7 @@ export default function LoginPage() {
                   </div>
                   <div>
                     <p>
-                      <strong>Admin:</strong> admin@eduplatform.com / admin123
+                      <strong>Admin:</strong> admin@acelerajovem.com / admin123
                     </p>
                   </div>
                 </div>
