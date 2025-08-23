@@ -269,7 +269,7 @@ export default function SearchPage() {
               <a href="/search" className="text-indigo-600 font-medium">
                 Trilhas
               </a>
-              <a href="/favorites" className="text-gray-700 hover:text-indigo-600 font-medium">
+              <a href="" className="text-gray-700 hover:text-indigo-600 font-medium">
                 Favoritos
               </a>
               <a href="/institutions" className="text-gray-700 hover:text-indigo-600 font-medium">

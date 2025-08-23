@@ -4,7 +4,7 @@ import type React from "react"
 
 import { Button } from "@/components/ui/button"
 import { Heart } from "lucide-react"
-import { useFavorites } from "@/contexts/favorites-context"
+import { useFavorites } from "@/contexts-context"
 import { cn } from "@/lib/utils"
 
 interface FavoriteButtonProps {

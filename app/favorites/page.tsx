@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Star, Users, Clock, BookOpen, Heart } from "lucide-react"
-import { useFavorites } from "@/contexts/favorites-context"
+import { useFavorites } from "@/contexts-context"
 import { FavoriteButton } from "@/components/favorite-button"
 import { UserMenu } from "@/components/user-menu"
 
@@ -173,7 +173,7 @@ export default function FavoritesPage() {
               <a href="/search" className="text-gray-700 hover:text-indigo-600 font-medium">
                 Trilhas
               </a>
-              <a href="/favorites" className="text-indigo-600 font-medium">
+              <a href="" className="text-indigo-600 font-medium">
                 Favoritos
               </a>
               <a href="/institutions" className="text-gray-700 hover:text-indigo-600 font-medium">
