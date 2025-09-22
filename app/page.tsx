@@ -76,7 +76,7 @@ export default function HomePage() {
                   <div className="absolute inset-0 bg-blue-100 dark:bg-blue-900/30 rounded-full w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"></div>
                   <BookOpen className="relative h-12 w-12 text-blue-600 dark:text-blue-400 mx-auto mb-4 z-10" />
                 </div>
-                <CardTitle className="text-xl mb-3">Conteúdos Premium</CardTitle>
+                <CardTitle className="text-xl mb-3">Explore novas oportunidades de aprendizado</CardTitle>
                 <CardDescription className="text-base leading-relaxed">
                   Acesse materiais exclusivos e conteúdos freemium de alta qualidade criados por especialistas da
                   indústria

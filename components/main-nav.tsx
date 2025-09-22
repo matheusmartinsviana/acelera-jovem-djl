@@ -24,8 +24,8 @@ import Image from "next/image"
 
 const navigation = [
   { name: "Home", href: "/", icon: BookOpen },
-  { name: "Conteúdos Freemium", href: "/conteudos-freemium", icon: BookOpen },
-  { name: "Trilha de Ensino", href: "/trilha-ensino", icon: BookOpen },
+  { name: "Trilha de Ensino", href: "/conteudos-freemium", icon: BookOpen },
+  // { name: "", href: "/trilha-ensino", icon: BookOpen },
   { name: "Fórum", href: "/forum", icon: MessageSquare },
 ]
 
